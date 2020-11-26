@@ -1,0 +1,1198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+    
+
+}
+.navigation{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    width: 100%; height: 100vh;
+    background-repeat: no-repeat;
+  
+ 
+    position: relative;
+    background-size: 1400px; background-position: bottom;
+    display: flex;
+    
+    border-bottom: solid 1px transparent; 
+    justify-content: space-between;
+}
+
+.navigation {
+    width: 100%;
+    height: 110vh;
+    box-sizing: content-box;
+    background-image:url('pexels-photo-210661.jpeg');
+    position: relative;
+    text-align: center;
+    
+  }
+  .navigation:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid white;
+    border-left: 1349px solid transparent;
+    border-right: 0px solid transparent;
+}
+.navigation .logo {
+    display: flex;
+    margin-top: 2.0rem;
+    color: white;
+    margin-left: 80px;
+}
+
+
+
+.triangle{
+   width: 0;height: 0;
+   
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-bottom: 40px solid white;
+   
+   
+}
+.navigation .option{
+    margin-right: 80px;
+    margin-top: 20px;
+  
+  
+}
+
+.navigation .option a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+ .navigation  .option a:hover{
+    color: greenyellow;
+}
+.option a:active{
+    transform: translateY(2px);
+}
+
+.clock{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    font-weight: lighter;
+    width: 850px; height: 40vh;
+    border: solid white 2px;
+    border-radius: 120px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.clock .one{
+    color: white;
+    align-items: center;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+.clock .one h1{
+    font-size: 95px;
+
+}
+.clock .one h6{
+    font-size: 15px;
+    letter-spacing: 3px;
+
+}
+
+
+.text{
+    display: flex;
+    width: 100%;
+    height: 45vh;
+  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text .text-one{
+    margin-left: 80px;
+    width: 50%;
+    position: absolute;
+    margin-top: -10px;
+}
+.text .text-one p{
+margin-top: 10px;
+font-size: 15px; 
+
+}
+.text .container{
+    display: grid;
+    margin-right: 80px;
+    width: 26%;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.4) 8px 8px 14px;
+    margin-top: -150px;
+    margin-left: 900px;
+    justify-items: center;
+}
+.container h2{
+    margin-top: 30px;
+}
+.text .container .enter{
+width: 300px; height: 6vh;
+outline: none; border: none;
+border-radius: 10px;
+margin-bottom: -30px;
+color: white;
+background-color: #b3b3b3;
+padding-left: 10px;
+}
+.text .container .button{
+    width: 300px; height: 6vh;
+    color: white;
+    outline: none; border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #b3b3b3;
+    }
+
+    .container .button:hover{
+        background-color: greenyellow;
+    }
+    .container .button:active{
+        transform: translateY(10px);
+    }
+    
+    .fine{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: 1400px; background-position: bottom;
+        display: flex;
+     
+        justify-content: space-between;
+    }
+
+    .fine {
+        width: 100%;
+        height: 90vh;
+        color: white;
+        margin-top: -80px;
+        position: absolute;
+        display: grid;
+        
+        align-items: center;
+        justify-items: center;
+        box-sizing: content-box;
+        background-image:url('william-daigneault-1156494-unsplash.jpg');
+        position: relative;
+        text-align: center;
+        
+      }
+      .fine::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+       top: 0;
+        border-top: 150px solid white;
+        border-right: 1349px solid transparent;
+        border-left: 0px solid transparent;
+    }
+      .fine:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 150px solid white;
+        border-left: 1349px solid transparent;
+        border-right: 0px solid transparent;
+    }
+    .fine h1{
+        margin-top: 170px;
+        font-size: 35px;
+    }
+     
+    .fine .join{
+        width: 120px; height: 40px;
+        background-color: #b3b3b3;
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 160px;
+        font-size: 15px;
+        text-transform: uppercase;
+
+    }
+    .fine .join:active{
+        transform: translateY(10px);
+    }
+    .join:hover{
+        background-color: yellowgreen;
+    }
+    .fine p{
+     
+        width: 70%;
+        
+    }
+
+
+    .our-staf{
+        width: 100%; height: 80vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .our-staf h1{
+        color: black;
+        position: relative;
+        margin-top: -10px;
+        margin-bottom: 5px;
+
+    }
+    .our-staf .staf-one{
+        width: 430px; height: 33vh;
+        ;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 14px;
+        
+        border: none;
+      margin-right: 25px;
+        display: flex;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+ 
+
+.first{
+    margin-top: 25px;
+    display: flex;
+   
+    
+}
+.first .staf-one .photo{
+    width: 40%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.first .staf-one .photo img{
+    width: 330px;
+ 
+}
+.first .staf-one .photo .img-2{
+    width: 600px; margin-top: 140px;
+ 
+}
+.first .staf-one .photo .img-3{
+    width: 600px; margin-top: 120px; margin-left: 150px;
+ 
+}
+.first .staf-one .photo .img-4{
+    width: 600px; margin-top: 160px;
+ 
+}
+
+.first .staf-one .text-staf{
+    width: 60%;
+    height: 10vh;
+    padding: 20px;
+}
+.first .staf-one .text-staf p{
+    font-size: 11px; width: 94%;
+    margin-top: 10px; margin-bottom: 10px;
+}
+.first .staf-one .text-staf a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+
+
+
+.contact {
+    width: 100%;
+    height: 90vh;
+    background-image: url('one.jpg');
+    display:grid;
+ 
+    
+ 
+background-size: cover;
+background-position: bottom;
+    align-items: center;
+    justify-items: center;
+    box-sizing: content-box;
+    text-align: center;
+    position: relative;
+    
+  }
+  .contact::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+   top: 0;
+    border-top: 150px solid white;
+    border-right: 1349px solid transparent;
+    border-left: 0px solid transparent;
+}
+
+.contact .US{
+    width: 50%;
+   
+    height: 50vh;
+    margin-top: 50px;
+
+
+}
+
+.contact .IN{
+    margin-top: 20px;
+    width: 100%; height: 30vh; 
+
+    
+    
+}
+
+.contact .IN input{
+    width: 300px; height: 6vh;
+    outline: none; border: none;
+    border-radius: 10px;
+    color: black;
+    opacity: 55%;
+    padding-left: 10px;
+    
+    background-color:white;
+    margin-bottom: 10px;
+    
+    }
+    .contact .IN .mes{
+        width: 90%; height: 20vh;
+        outline: none; border: none;
+        color: black;
+        opacity: 55%;
+        background-color:white;
+       
+       
+        }
+    .contact .US .button-0{
+        width: 100px; height: 6vh;
+        color: white;
+        outline: none; border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: #b3b3b3;
+        }
+    
+        .contact .US .button-0:hover{
+            background-color: greenyellow;
+        }
+        .contact .US .button-0:active{
+            transform: translateY(10px);
+        }
+
+
+/* for mobile */
+
+@media only screen and (max-width: 415px){
+    .body{
+        width: 100%;
+      
+        margin: 0px !important;
+    }
+    .navigation{
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        background-position: center;
+        background-size: 38rem;
+      
+      
+        margin: 0px !important;
+    }
+    .navigation:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+   
+        height: 0;
+        border-bottom: 80px solid white;
+        border-left: 337px solid transparent;
+        border-right: 0px solid transparent;
+    }
+ 
+    .navigation .logo{
+       
+        margin: 0;
+        width: 100%;
+
+    }
+    .logo .triangle{
+        width: 0;height: 0;
+   
+   border-left: 13px solid transparent;
+   border-right: 13px solid transparent;
+   border-bottom: 26px solid white;
+   
+
+    }
+    .logo .name {
+width: 20%;
+
+        
+
+    }    
+    .logo .name h3{
+        font-size: 12px;
+    }
+    .logo .name h5{
+        font-size: 8px;
+    }
+    .navigation .logo{
+        margin-top: 10px;
+        margin-left: 20px;
+       
+    }
+    .navigation .option{
+       
+        display: none;
+    }
+     .clock{
+      
+        position: absolute;
+        width: 300px;
+        height: 12vh;
+        left:1rem;
+        top: 8rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .clock .one{
+        
+        width: 20%;
+        height: auto;
+        margin-left: 2px;
+        margin-right: 2px;
+
+    }
+     .clock .one h1{
+         font-size: 2rem;
+     }
+     .clock .one h6{
+        font-size: .4rem;
+    }
+
+     .text .container{
+         width: 70%;
+         height: 40vh;
+         
+         position: absolute;
+         bottom:6rem;
+
+        margin: 0 !important;
+ 
+    }
+    .container h2{
+        font-size: .9rem;
+        height: 3vh;
+        margin: 0;margin-top: 1rem;
+        
+    }
+    .container .enter{
+        width: 100% !important;
+        font-size: 12px;
+        margin: 0 !important;
+    padding-left: 10px;
+        height: 4vh !important;
+        
+    }
+    .container .button{
+        width: 100% !important;
+        margin-top: 1.5REM;
+        margin-bottom: 1.5REM;
+        height: 4vh !important;
+        margin: 0 !important;
+       
+    }
+
+    .text{
+        width: 100%;
+        height: 78vh;
+        display: flex;
+        position: relative;
+       
+        flex-direction:column ;
+   
+    }
+    .text .text-one{
+        width: 80%;
+        margin: 0;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .text .text-one h2{
+        font-size: 1rem;
+
+    }
+    .text .text-one p{
+        width: 80%;
+        font-size: 11px;
+    }
+
+
+    .first{
+        width:100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    
+        
+    }
+
+    .fine{
+        width: 100%;
+        height: 60vh;
+        background-size: 1100px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: none;
+        
+    }
+
+    .fine p{
+        margin-top: 20px;
+        font-size: 9px !important;
+        width: 80% !important;
+        margin-bottom: 20px;
+    }
+    .fine::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+  
+        top: 0;
+        border-top: 80px solid white;
+        border-right: 337px solid transparent;
+        border-left: 0px solid transparent;
+    }
+      .fine:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+   
+        border-bottom: 80px solid white;
+        border-left: 337px solid transparent;
+        border-right: 0px solid transparent;
+       
+    }
+
+    .fine h1{
+        font-size: 20px;
+    }
+    .fine p{
+        font-size: 10px;
+        width: 90%;
+    }
+
+
+
+    .our-staf{
+       
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 70vh
+
+    }
+    .our-staf h1{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .staf-one{
+        display: flex;
+        width: 90% !important;
+        margin: 0 !important;
+      
+     margin-bottom: 10PX !important;
+        display: flex;
+        align-items: center;
+        height: 15vh !important;
+    }
+    .staf-one h4{
+        font-size: 12px;
+    }
+    .staf-one h6{
+        font-size: 9px;
+        margin-bottom: 3px;
+    }
+    .staf-one p{
+        margin-top: 5px !important;
+        margin: 0 !important;
+        width: 89% !important;
+        line-height: 8px;
+        font-size: 8px !important;
+    }
+.staf-one a{
+    font-size: 10px !important;
+    margin-top: 2px;
+}
+    .staf-one .photo{
+        height: 60px !important;
+        width: 60px !important;
+        border-radius: 50%;
+        margin: 8px;
+    
+    }
+    .text-staf{
+       
+        margin: 0 !important;
+        width: 80% !important;
+        display: flex;
+        flex-direction: column;
+     
+        height: 15VH !important;
+        justify-content: center;
+        padding: 0 !important;
+    }
+    .staf-one .photo .img-2{
+        width: 230px !important;
+        background-color: midnightblue;
+       margin-bottom: 60px;
+    }
+    .staf-one .photo .img-3{
+        width: 230px !important;
+        background-color: midnightblue;
+       margin-bottom: 70px;
+       margin-right: 90px;
+    }
+    .staf-one .photo .img-4{
+        width: 230px !important;
+        background-color: midnightblue;
+       margin-bottom: 80px;
+       margin-left: 17PX;
+      
+    }
+    .staf-one .photo .img-1{
+        width: 150px !important;
+        background-color: midnightblue;
+       margin-top: 35px;
+      
+    }
+    
+
+    .contact{
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: 600px;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .contact::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+
+        border: none;   
+        top: 0;
+        border-top: 80px solid white;
+        border-right: 337px solid transparent;
+        border-left: 0px solid transparent;
+    }
+   .contact .IN{
+       
+       width: 100% !important;
+       height: 24vh;
+       margin: 0 !important;
+       padding: 0;
+   }
+   .IN input{
+       width: 70% !important;
+       height: 5vh !important;
+       font-size: 12px;
+       margin-bottom: 5px;
+   }
+   .contact .US{
+       width: 100%;
+       height: auto;
+       position: absolute;
+      
+       bottom:18px !important;
+       
+         }
+   .US h1{
+       font-size: 18px;
+       margin-bottom: 20px;
+       color: white;
+   }
+   .IN .mes{
+       height: 10vh !important;
+       margin: 0 !important;
+    
+   }
+   .US  .button-0{
+    width: 20% !important;
+    border-radius: 10px !important;
+    height: 4vh !important;
+    font-size: 11px ;
+}  
+
+
+}
+
+/* for ipads*/
+@media only screen and (min-width:600px) and (max-width: 900px){
+    .body{
+        width: 100%;
+        margin: 0px !important;
+    }
+    .navigation{
+        width: 100% !important;
+        height: 70vh;
+     
+     
+        position: relative;
+        background-position: center;
+        background-size: 90rem;
+        margin: 0px !important;
+    }
+    .navigation:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+     
+        height: 0;
+        border-bottom: 180px solid white;
+        border-left: 770px solid transparent;
+        border-right: 0px solid transparent;
+    }
+ 
+    .navigation .logo{
+       
+        margin: 0;
+       
+        width: 20%;
+
+    }
+    .logo .triangle{
+        width: 0;height: 0;
+
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-bottom: 30px solid white;
+   
+
+    }
+    .logo .name {
+width: 60%;
+
+display: flex;
+flex-direction: column;
+height: 4vh;
+
+
+        
+
+    }    
+    .logo .name h3{
+        font-size: 16px;
+        margin-bottom: -4px;
+    }
+    .logo .name h5{
+        font-size: 11px;
+    }
+    .navigation .logo{
+        margin-top: 20px;
+        margin-left: 30px;
+       
+    }
+    .navigation .option{
+       width: 50%;
+        display: flex;
+        justify-content: space-around;
+
+        margin-right: 20px !important;
+        
+     
+        margin: 0
+      
+            }
+            .navigation .option a{
+                font-size: 10px;
+                margin: 0;
+             
+                margin-top: 20px;
+            }
+
+
+            .clock{
+      
+                position: absolute;
+                width: 600px;
+                height: 18vh;
+                left:5.5rem;
+                top: 8rem;
+               
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            
+            }
+            .clock .one{
+                
+                width: 20%;
+        
+                height: auto;
+                margin-left: 2px;
+                margin-right: 2px;
+        
+            }
+             .clock .one h1{
+                 font-size: 3rem;
+             }
+             .clock .one h6{
+                font-size: .8rem;
+            }
+        
+             .text .container{
+                 width: 35%;
+                 height: 30vh;
+                 
+                 position: absolute;
+                 bottom:15rem;
+                 right: 30px;
+        
+                margin: 0 !important;
+         
+            }
+            .container h2{
+                font-size: 1.3rem;
+                height: 3vh;
+                margin: 0;margin-top: 1rem;
+                
+            }
+            .container .enter{
+                width: 100% !important;
+                font-size: 12px;
+                margin: 0 !important;
+                height: 3vh !important;
+                
+            }
+            .container .button{
+                width: 100% !important;
+                margin-top: 1.5REM;
+                margin-bottom: 1.5REM;
+                height: 4vh !important;
+                margin: 0 !important;
+               
+            }
+            .text{
+                width: 100%;
+                height: 20vh;
+                display: flex;
+                position: relative;
+                margin-top: 20px;
+                flex-direction:column ;
+           
+            }
+            .text .text-one{
+                width: 80%;
+                margin: 0;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+          
+               
+               
+            }
+            .text .text-one h2{
+                font-size: 1.1rem;
+        
+            }
+            .text .text-one p{
+                width: 70%;
+                font-size: 11px;
+            }
+            .fine{
+                width: 100%;
+                height: 60vh;
+                background-size: 1100px;
+                display: flex; 
+                background-position: left bottom;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                border: none;
+                
+            }
+        
+            .fine p{
+                margin-top: 20px;
+                font-size: 11px !important;
+                width: 60% !important;
+                margin-bottom: 20px;
+            }
+            .fine::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 0;
+          
+                top: 0;
+                border-top: 180px solid white;
+                border-right: 770px solid transparent;
+                border-left: 0px solid transparent;
+            }
+              .fine:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 0;
+           
+                border-bottom: 180px solid white;
+                border-left: 770px solid transparent;
+                border-right: 0px solid transparent;
+               
+            }
+        
+            .fine h1{
+                font-size: 25px;
+            }
+            
+        
+        
+        
+            .our-staf{
+               
+                width: 100%;
+                display: flex;
+                justify-items: center;
+                justify-content: center;
+                flex-direction: column;
+               
+                align-items: center;
+                height: 60vh
+        
+            }
+            .first{
+                width:100%;
+                display: flex;
+               
+             
+              
+                align-items: center;
+              
+                justify-content: center;
+
+                
+            
+                
+            }
+            .our-staf h1{
+                font-size: 21px;
+                margin-bottom: 10px;
+            }
+            .staf-one{
+                display: flex;
+                width: 35% !important;
+                margin: 0 !important;
+                margin-right: 20px !important;
+                flex-direction: column;
+               align-items: center;
+                height:25vh !important;
+            }
+            .staf-one h4{
+                font-size: 14px;
+            }
+            .staf-one h6{
+                font-size: 9px;
+               
+            }
+            .staf-one p{
+              
+                
+                width: 94% !important;
+                line-height: 10px;
+                
+                font-size: 9px !important;
+            }
+        .staf-one a{
+            font-size: 13px !important;
+           
+        }
+            .staf-one .photo{
+                height: 70px !important;
+                width: 70px !important;
+                border-radius: 50%;
+                margin: 15px 0 0 0;
+            
+            }
+            .text-staf{
+               
+                margin: 0 !important;
+                width: 80% !important;
+                display: flex;
+                flex-direction: column;
+             align-items: center;
+             text-align: center;
+                height: 13VH !important;
+               
+                justify-content: center;
+                padding: 0 !important;
+            }
+            .text-staf{
+                margin-top: 10px !important;
+            }
+            .staf-one .photo .img-2{
+                width: 230px !important;
+                background-color: midnightblue;
+               margin-bottom: 60px;
+            }
+            .staf-one .photo .img-3{
+                width: 230px !important;
+                background-color: midnightblue;
+               margin-bottom: 70px;
+               margin-right: 90px;
+            }
+            .staf-one .photo .img-4{
+                width: 230px !important;
+                background-color: midnightblue;
+               margin-bottom: 80px;
+               margin-left: 17PX;
+              
+            }
+            .staf-one .photo .img-1{
+                width: 150px !important;
+                background-color: midnightblue;
+               margin-top: 35px;
+              
+            }
+            .contact{
+                width: 100%;
+                background-color: tomato;
+                height:60VH;
+                background-position: top;
+                display: flex;
+                background-size: 62rem;
+                background-repeat: no-repeat;
+                margin: 0;
+               
+            }
+            .contact::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 0;
+        
+                border: none;   
+                top: 0;
+                border-top: 180px solid white;
+                border-right: 770px solid transparent;
+                border-left: 0px solid transparent;
+            }
+           .contact .IN{
+               
+               width: 100% !important;
+               height: auto;
+              
+               margin: 0 !important;
+               padding: 0;
+           }
+           .IN input{
+               width: 70% !important;
+               height: 5vh !important;
+               font-size: 12px;
+               margin-bottom: 5px;
+           }
+           .contact .US{
+               width: 100%;
+              
+               height: auto;
+               position: absolute;
+              
+            
+               
+                 }
+
+         .US  .button-0{
+             width: 20% !important;
+             border-radius: 15px !important;
+             height: 5vh !important;
+             font-size:18px ;
+         }  
+           .US h1{
+               font-size: 20px;
+               margin-bottom: 20px;
+               color: white;
+           }
+           .IN .mes{
+               height: 10vh !important;
+               margin: 0 !important;
+            
+           }
+        }
